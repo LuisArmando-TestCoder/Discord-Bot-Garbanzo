@@ -1,12 +1,12 @@
 {
-  "name": "garbanzo",
+  "name": "Discord-Bot-Garbanzo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./src/index.ts",
-    "start": "node ./build/index.js",
-    "build": "tsc"
+    "dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js",
+    "build": ""
   },
   "keywords": [],
   "author": "",
@@ -15,8 +15,6 @@
     "discord.js": "^12.5.3"
   },
   "devDependencies": {
-    "@types/node": "^15.12.4",
-    "nodemon": "^2.0.7",
-    "typescript": "^4.3.4"
+    "nodemon": "^2.0.7"
   }
 }
